@@ -8,7 +8,7 @@
 # PARAMETER                         #
 #####################################
 
-param([string]$token, [int]$projectID)
+param([string]$token, [string]$projectID)
 
 #####################################
 # Setup                             #

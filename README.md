@@ -29,6 +29,12 @@ $repoURL = 'https://gitlab.example.com'
 
 The following command is generating a changelog.txt file for your project with the `ID 13`.
 
+*PowerShell Script*
 ```console
 .\generateChangelog.ps1 -token 'mySecretToken' -projectID '13' > changelog.txt
+```
+
+*Batch Script*
+```console
+generateChangelog.bat 'mySecretToken' '13' > changelog.txt
 ```
