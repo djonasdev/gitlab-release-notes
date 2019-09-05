@@ -3,7 +3,7 @@ GitLab Changelog Generator with release notes
 
 ---
 
-GitLab release notes are stored in the database, not in the Git repo while the message is stored in the Git repo. This is why you're able to get the message but not the release notes in the script you have.
+GitLab release notes are stored in the database, not in the Git repo while the message is stored in the Git repo.
 
 The only way you could get release notes would be to use the [GitLab API - Releases API](https://docs.gitlab.com/ee/api/releases/#get-a-release-by-a-tag-name).
 
